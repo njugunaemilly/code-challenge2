@@ -39,7 +39,8 @@ const allCharacters = () =>{
                 })
             })
             .then(res => res.json)
-            .then(data => console.log(data))
+            .then(data => console.log(data)) 
+            console.log()
 
 
         })
